@@ -2,6 +2,7 @@
 using GeekShopping.ProductAPI.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
@@ -55,6 +56,17 @@ namespace GeekShopping.ProductAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 2L,
+                            CategoryName = "T-shirt",
+                            Description = "Descriçao do produto, Descriçao do produto, Descriçao do produto, Descriçao do produto, ",
+                            ImageUrl = "http://url",
+                            Name = "Produto 1",
+                            Price = 69.9m
+                        });
                 });
 #pragma warning restore 612, 618
         }
