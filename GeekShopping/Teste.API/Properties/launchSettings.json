@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Teste.API": {
+    "GeekShopping.ProductAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

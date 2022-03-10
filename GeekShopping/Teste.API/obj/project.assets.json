@@ -2265,9 +2265,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\microservices-dotnet6\\GeekShopping\\Teste.API\\Teste.API.csproj",
-      "projectName": "Teste.API",
-      "projectPath": "C:\\Projetos\\microservices-dotnet6\\GeekShopping\\Teste.API\\Teste.API.csproj",
+      "projectUniqueName": "C:\\Projetos\\microservices-dotnet6\\GeekShopping\\Teste.API\\GeekShopping.ProductAPI.csproj",
+      "projectName": "GeekShopping.ProductAPI",
+      "projectPath": "C:\\Projetos\\microservices-dotnet6\\GeekShopping\\Teste.API\\GeekShopping.ProductAPI.csproj",
       "packagesPath": "C:\\Users\\marques.fonseca\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos\\microservices-dotnet6\\GeekShopping\\Teste.API\\obj\\",
       "projectStyle": "PackageReference",

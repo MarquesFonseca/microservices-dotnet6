@@ -7,7 +7,6 @@ C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0
 C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\GeekShopping.Web.dll
 C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\ref\GeekShopping.Web.dll
 C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\GeekShopping.Web.pdb
-C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.csproj.AssemblyReference.cache
 C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.AssemblyInfoInputs.cache
 C:\Projetos\microservices-dotnet6\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.AssemblyInfo.cs

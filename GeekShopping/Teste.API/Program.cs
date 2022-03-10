@@ -1,3 +1,10 @@
+using AutoMapper;
+using GeekShopping.ProductAPI.Config;
+using GeekShopping.ProductAPI.Data.Context;
+using GeekShopping.ProductAPI.Repository.Implementation;
+using GeekShopping.ProductAPI.Repository.Interface;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
