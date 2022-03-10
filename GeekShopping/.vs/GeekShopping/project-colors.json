@@ -15,7 +15,22 @@
       "ProjectGuid": "4a6b29c7-65da-40ce-813a-e4989b2d0d7e",
       "DisplayName": "WebApplication2",
       "ColorIndex": 2
+    },
+    "63dd90ef-f00b-4400-955d-6aa092ccdfed": {
+      "ProjectGuid": "63dd90ef-f00b-4400-955d-6aa092ccdfed",
+      "DisplayName": "Teste.API",
+      "ColorIndex": 3
+    },
+    "80bf8b00-a366-482b-b7be-41e58e39fc17": {
+      "ProjectGuid": "80bf8b00-a366-482b-b7be-41e58e39fc17",
+      "DisplayName": "WebApplication3",
+      "ColorIndex": 4
+    },
+    "1c5961ac-9210-4e2e-ba09-8d1872857a8a": {
+      "ProjectGuid": "1c5961ac-9210-4e2e-ba09-8d1872857a8a",
+      "DisplayName": "WebApplication5",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 6
 }
