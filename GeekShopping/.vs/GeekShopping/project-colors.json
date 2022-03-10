@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0033d4ee-361b-42b2-9119-eedd42837a54": {
+      "ProjectGuid": "0033d4ee-361b-42b2-9119-eedd42837a54",
+      "DisplayName": "GeekShopping.ProductAPI",
+      "ColorIndex": 0
+    },
+    "9adcac69-63a1-44b8-8ee4-1daa67899853": {
+      "ProjectGuid": "9adcac69-63a1-44b8-8ee4-1daa67899853",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 1
+    },
+    "4a6b29c7-65da-40ce-813a-e4989b2d0d7e": {
+      "ProjectGuid": "4a6b29c7-65da-40ce-813a-e4989b2d0d7e",
+      "DisplayName": "WebApplication2",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
