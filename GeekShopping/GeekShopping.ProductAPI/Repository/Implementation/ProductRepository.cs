@@ -32,17 +32,35 @@ namespace GeekShopping.ProductAPI.Repository.Implementation
 
         public async Task<ProductVO> Create(ProductVO productVO)
         {
-            throw new NotImplementedException();
+            Product product = _mapper.Map<Product>(productVO);  
+            _context.Products.Add(product);
+            await _context.SaveChangesAsync();
+            return _mapper.Map<ProductVO>(product);
         }
 
         public async Task<ProductVO> Update(ProductVO productVO)
         {
-            throw new NotImplementedException();
+            Product product = _mapper.Map<Product>(productVO);
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+            return _mapper.Map<ProductVO>(product);
         }
 
         public async Task<bool> Delete(long id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Product product = await _context.Products.Where(x => x.Id == id).FirstAsync();
+                if(product == null) return false;
+                _context.Products.Remove(product);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            
         }
     }
 }
