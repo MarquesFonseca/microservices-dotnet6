@@ -30,7 +30,12 @@
       "ProjectGuid": "1c5961ac-9210-4e2e-ba09-8d1872857a8a",
       "DisplayName": "WebApplication5",
       "ColorIndex": 5
+    },
+    "39973e5d-aac9-41ee-8251-cb243168d3d6": {
+      "ProjectGuid": "39973e5d-aac9-41ee-8251-cb243168d3d6",
+      "DisplayName": "GeekShopping.ProductAPI",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
