@@ -50,7 +50,7 @@ namespace GeekShopping.ProductAPI.Repository.Implementation
         {
             try
             {
-                Product product = await _context.Products.Where(x => x.Id == id).FirstAsync();
+                Product product = await _context.Products.Where(x => x.Id == id).FirstOrDefaultAsync();
                 if(product == null) return false;
                 _context.Products.Remove(product);
                 await _context.SaveChangesAsync();
